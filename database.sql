@@ -1,0 +1,11 @@
+CREATE DATABASE otp_login CHARACTER SET utf8mb4 COLLATE utf8mb4_unicode_ci;
+
+USE otp_login;
+
+CREATE TABLE users (
+  id INT AUTO_INCREMENT PRIMARY KEY,
+  email VARCHAR(255) NOT NULL,
+  otp_code VARCHAR(6),
+  otp_expiry DATETIME,
+  created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP
+);
