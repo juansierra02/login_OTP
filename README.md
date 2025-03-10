@@ -45,7 +45,7 @@ otp-login/
 1. Clona este repositorio:
    ```bash
    git clone https://github.com/juansierra02/login_OTP.git
-   cd otp-login
+   cd login_OTP
    ```
 
 2. Instala dependencias con Composer:
