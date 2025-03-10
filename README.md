@@ -44,7 +44,7 @@ otp-login/
 
 1. Clona este repositorio:
    ```bash
-   git clone https://github.com/tuusuario/otp-login.git
+   git clone [https://github.com/tuusuario/otp-login.git](https://github.com/juansierra02/login_OTP.git)
    cd otp-login
    ```
 
