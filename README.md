@@ -1,4 +1,4 @@
-# 🔐 OTP Login en PHP 7.4 + PHPMailer
+# 🔒 OTP Login en PHP 7.4 + PHPMailer
 
 Este proyecto es una aplicación sencilla de login utilizando un código OTP (One-Time Password), enviado por correo electrónico para verificar la identidad del usuario. Desarrollado en PHP 7.4 con soporte de PHPMailer y MySQL como base de datos.
 
@@ -14,7 +14,7 @@ Este proyecto es una aplicación sencilla de login utilizando un código OTP (On
 
 ---
 
-## 📂 Estructura del proyecto
+## 📚 Estructura del proyecto
 
 ```
 otp-login/
@@ -26,8 +26,17 @@ otp-login/
 ├── verify_otp.php
 ├── composer.json
 ├── README.md
+├── diagram.png
 └── vendor/ (autogenerado por Composer)
 ```
+
+---
+
+## 🎨 Diagrama del Proyecto
+
+A continuación, se muestra el diagrama general del flujo del proyecto:
+
+![Diagrama del Proyecto](diagram.png)
 
 ---
 
@@ -61,7 +70,7 @@ otp-login/
 
 ---
 
-## 📧 Configuración del correo
+## 📬 Configuración del correo
 
 En el archivo `config.php` ajusta estas líneas:
 
@@ -93,7 +102,7 @@ $mail->setFrom('no-reply@tuapp.com', 'Tu App');
 
 ---
 
-## 📜 Licencia
+## 🐜 Licencia
 
 Este proyecto está bajo la licencia MIT. Puedes usarlo, modificarlo y distribuirlo libremente.
 
